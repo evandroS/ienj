@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "heroku"]
+	url = https://git.heroku.com/site-ienj.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+[remote "github"]
+	url = https://github.com/evandroS/Site_IENJ.git
+	fetch = +refs/heads/*:refs/remotes/github/*
+[remote "origin"]
+	url = https://github.com/evandroS/Site_IENJ.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
